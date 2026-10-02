@@ -23,7 +23,6 @@ Gemini then uses the retrieved information to generate a user-friendly response 
 - **Sentence Transformers** — Text embeddings
 - **FAISS** — Vector database and similarity search
 - **Redis** — Conversation context storage
-- **FastAPI** — API backend
 - **PyMuPDF** — PDF text extraction
 
 ## Workflow
@@ -93,7 +92,6 @@ The chatbot can then be used directly through the command line.
 ```text
 airtel-dth-rag-chatbot/
 │
-├── app.py
 ├── chatbot.py
 ├── build_kb.py
 ├── requirements.txt
@@ -106,5 +104,3 @@ airtel-dth-rag-chatbot/
 └── json/
     └── Airtel DTH FAQ data
 ```
-
-> **Note:** The `.env` file containing the Gemini API key should never be uploaded to GitHub.
